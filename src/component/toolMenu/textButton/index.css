@@ -1,0 +1,19 @@
+.text-input-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    margin-right: -16px;
+}
+
+.text-input-button{
+    width: 64px;
+    height: 32px;
+}
+
+.text-input-expand{
+    position: relative;
+    left: -20px;
+}

@@ -1,0 +1,38 @@
+.page-setting-panel{
+    width: 60px;
+    padding: 8px 0;
+}
+
+.page-setting-check{
+    display: flex;
+    justify-items: center;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    width: 22px;
+    height: 22px;
+}
+
+.page-setting{
+    cursor: default;
+    width: 48px;
+    height: 32px;
+    margin: 4px;
+    background-color: #FFFFFF;
+    box-sizing: content-box;
+    display: flex;
+    justify-items: center;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    border-radius: 6px;
+
+    &:active{
+        background-color: #95B2F6;
+    }
+
+    &:hover{
+        background-color: #F5F5F5;
+    }
+}

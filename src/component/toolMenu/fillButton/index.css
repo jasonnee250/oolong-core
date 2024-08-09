@@ -1,0 +1,10 @@
+.fill-panel{
+    padding: 8px 0;
+    width: 328px;
+    height: 76px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    align-content: space-around;
+    justify-content: space-around;
+}

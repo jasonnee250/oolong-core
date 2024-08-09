@@ -1,0 +1,64 @@
+
+.top-container{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 38px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    background-color: #FBFAFA;
+    flex-direction: row;
+    z-index: 10;
+
+    .file-button{
+        width: auto;
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        flex-direction: row;
+        padding-left: 7px;
+        padding-right: 9px;
+    }
+
+    .file-icon{
+        width: 26px;
+        height: 26px;
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        justify-content: center;
+    }
+
+    .button-icon{
+        width: 16px;
+        height: 16px;
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        justify-content: center;
+        margin-right: 7px;
+        margin-left: 7px;
+
+        .file-upload{
+            display: none;
+        }
+
+    }
+
+    .file-text{
+        font-size: 14px;
+        font-weight: normal;
+    }
+
+    .button-group{
+        display: flex;
+        height: 100%;
+        justify-items: center;
+        align-items: center;
+        flex-direction: row;
+        padding-left: 3px;
+        padding-right: 3px;
+    }
+}

@@ -1,0 +1,25 @@
+.tool-more-panel {
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    padding: 8px 0;
+
+    .tool-more-btn {
+        border: none;
+        justify-content: left;
+        border-radius: 4px;
+        width: 88px;
+
+        &:hover {
+            background-color: #F5F5F5;
+        }
+
+        &:active {
+            background-color: #EDEDED;
+        }
+    }
+}
+

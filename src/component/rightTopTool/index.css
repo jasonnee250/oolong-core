@@ -1,0 +1,99 @@
+.base-button {
+    width: 76px;
+    height: 32px;
+    border-radius: 12px;
+    margin: 4px;
+    background-color: #FFFFFF;
+    border: 1px solid;
+    box-sizing: content-box;
+
+    display: flex;
+    justify-items: center;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+
+}
+
+.share-btn {
+    border-color: #255DE6;
+    color: #255DE6;
+
+    &:hover {
+        background-color: #E1E8FC;
+    }
+
+    &:active {
+        background-color: #C5D5FA;
+    }
+}
+
+.more-btn-container {
+    border: none;
+    width: 32px;
+
+    &:hover {
+        background-color: #F5F5F5;
+    }
+
+    &:active {
+        background-color: #EDEDED;
+    }
+}
+
+.more-btn {
+    border: none;
+    justify-content: left;
+    border-radius: 4px;
+
+    &:hover {
+        background-color: #F5F5F5;
+    }
+
+    &:active {
+        background-color: #EDEDED;
+    }
+}
+
+.save-btn {
+    border: none;
+
+    &:hover {
+        background-color: #F5F5F5;
+    }
+
+    &:active {
+        background-color: #EDEDED;
+    }
+}
+
+.right-top-tool {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+
+    background-color: #FFFFFF;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    padding: 4px 8px;
+    z-index: 12;
+
+    border-radius: 12px;
+    box-shadow: 0px 2px 6px 0px #0000000A;
+
+}
+
+.tr-more-container {
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    padding: 8px 0;
+}

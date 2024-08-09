@@ -1,0 +1,18 @@
+.line-panel{
+    display: flex;
+    flex-direction: row;
+    padding: 8px 0;
+
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.ant-popover-content{
+    .ant-popover-inner{
+
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+}

@@ -1,0 +1,9 @@
+
+.shape-button-panel{
+    width: 496px;
+    height: 160px;
+    padding: 8px 0;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}

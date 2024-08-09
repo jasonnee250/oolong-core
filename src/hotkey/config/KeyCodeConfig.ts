@@ -1,0 +1,15 @@
+export enum KeyCode{
+    Enter='Enter',
+    Escape='Escape',
+    Backspace='Backspace',
+    ArrowLeft='ArrowLeft',
+    ArrowRight='ArrowRight',
+    ArrowUp='ArrowUp',
+    ArrowDown='ArrowDown',
+    KeyA='a',
+    KeyD='d',
+    KeyL='l',
+    KeyR='r',
+    KeyZ='z',
+    Tab='Tab',
+}
