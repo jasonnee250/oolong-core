@@ -7,7 +7,7 @@ export class DocState{
     /**
      * 文档基础设置信息
      */
-    mode:DocMode=DocMode.Document;
+    mode:DocMode=DocMode.Board;
     backgroundColor:string="#EEEEEE";
 
     load(docSetting:DocSettingDO):void{
